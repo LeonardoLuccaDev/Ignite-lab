@@ -1,0 +1,32 @@
+criando projeto
+- next new <nome do projeto>
+
+deletar uma pasta
+- rm -rf <nome da pasta>
+
+copiar uma pasta
+- cp -r <nome da pasta a ser copiada> <nome da pasta copiada>
+
+gerar arquivos
+- nest generate -h (lista de todos os tipos de arquivos que podem ser gerados)
+- nest generate module <nome>
+- nest generate guard <nome> --no-spec
+- nest generate controller <nome> --no-spec
+- nest generate service <nome> --no-spec
+
+dependencias
+- yarn add @nestjs/config
+- yarn add express-jwt jwks-rsa
+- yarn add prisma -D
+- yarn add @prisma/client -D
+- yarn add @nestjs/graphql @nestjs/apollo graphql apollo-server-express
+
+iniciar prisma
+- yarn prisma init
+
+rodar migration do prisma
+- yarn prisma generate
+- yarn prisma migrate dev
+
+usando prisma studio
+- yarn prisma studio

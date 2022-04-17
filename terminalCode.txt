@@ -1,0 +1,8 @@
+rodar o docker
+- docker-compose up -d
+
+desativar o docker
+- docker-compose down
+
+ver containers ativos no docker
+- docker ps

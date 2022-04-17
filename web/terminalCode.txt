@@ -1,0 +1,8 @@
+criando projeto 
+- yarn create next-app <nome do projeto> --typescript
+
+gerar segredo
+- openssl rand -hex 32
+
+dependencias
+- yarn add @auth0/nextjs-auth0
