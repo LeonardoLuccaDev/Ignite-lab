@@ -20,6 +20,7 @@ dependencias
 - yarn add prisma -D
 - yarn add @prisma/client -D
 - yarn add @nestjs/graphql @nestjs/apollo graphql apollo-server-express
+- yarn add slugify
 
 iniciar prisma
 - yarn prisma init
