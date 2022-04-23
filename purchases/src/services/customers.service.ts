@@ -12,9 +12,9 @@ export class CustomersService {
     async getCustomerByUserId(id: string){
         return this.prisma.customer.findUnique({
             where: {
-                authUserId: id
+              authUserId: id,
             },
-        });
+          });
     }
 
     async createCustomer({ authUserId }: CreateCustomerParams) {
