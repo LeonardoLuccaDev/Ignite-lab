@@ -1,0 +1,7 @@
+CRIANDO PROJETO
+- nest new <nome do projeto>
+
+DEPENDÊNCIAS
+- yarn add @apollo/gateway @nestjs/graphql @nestjs/apollo
+- yarn add apollo-server-express
+- yarn add graphql@15
