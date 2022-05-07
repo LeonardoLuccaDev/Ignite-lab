@@ -6,3 +6,10 @@ gerar segredo
 
 dependencias
 - yarn add @auth0/nextjs-auth0
+- yarn add graphql@15 @apollo/client
+- yarn add @graphql-codegen/cli @graphql-codegen/import-types-preset @graphql-codegen/typescript @graphql-codegen/typescript-operations @graphql-codegen/typescript-react-apollo graphql-codegen-apollo-next-ssr -D
+- yarn add next-http-proxy-middleware
+- yarn add tailwindcss postcss autoprefixer -D
+
+iniciando tailwindcss
+- yarn tailwindcss init -p
